@@ -46,6 +46,6 @@ TW_THEME := portrait_mdpi
 TW_MAX_BRIGHTNESS := 255
 TW_BRIGHTNESS_PATH := '/sys/devices/gen-panel-backlight.29/backlight/panel/brightness'
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-
+TW_TARGET_USES_QCOM_BSP := true
 BOARD_CUSTOM_BOOTIMG_MK := device/generic/twrpbuilder/seEnforcing.mk
 include $(LOCAL_PATH)/kernel.mk
